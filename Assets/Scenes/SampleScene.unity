@@ -506,6 +506,7 @@ GameObject:
   - component: {fileID: 813202450}
   - component: {fileID: 813202452}
   - component: {fileID: 813202453}
+  - component: {fileID: 813202454}
   m_Layer: 0
   m_Name: BlueDragon
   m_TagString: Untagged
@@ -707,3 +708,16 @@ PolygonCollider2D:
       - {x: 0.34, y: -1.4699999}
       - {x: 0.45, y: -1.4}
       - {x: 0.59, y: -1.25}
+--- !u!114 &813202454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813202449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1f92d7dd39f8548b2c6ce1cb74ba45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: {x: 0, y: 500}
