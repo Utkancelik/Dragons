@@ -8,7 +8,8 @@ public class Shooter : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            var projectile = Instantiate(projectilePrefab,
+            var projectile = Instantiate(
+                projectilePrefab,
                 transform.position, 
                 projectilePrefab.transform.rotation);
         }
