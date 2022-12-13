@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &99901060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795361, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169209006949795363, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
+      propertyPath: m_Name
+      value: Fireball
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 195332713c4820d468e4c21a07dbd608, type: 3}
 --- !u!1 &332395429
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,8 +1051,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2130483285}
   - component: {fileID: 2130483284}
-  - component: {fileID: 2130483286}
   - component: {fileID: 2130483287}
+  - component: {fileID: 2130483286}
+  - component: {fileID: 2130483288}
   m_Layer: 0
   m_Name: RedDragon
   m_TagString: Untagged
@@ -1186,6 +1244,18 @@ PolygonCollider2D:
       - {x: 0.29999998, y: -1.4599999}
       - {x: 0.45, y: -1.3199999}
       - {x: 0.58, y: -1.18}
+--- !u!114 &2130483288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130483283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac517f58f7688541a53488d61865446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2134963367
 PrefabInstance:
   m_ObjectHideFlags: 0
