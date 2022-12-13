@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 813202454}
   - component: {fileID: 813202455}
   - component: {fileID: 813202457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BlueDragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
