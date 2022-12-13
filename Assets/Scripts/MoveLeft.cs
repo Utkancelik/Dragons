@@ -8,7 +8,7 @@ public class MoveLeft : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * speed);
+        transform.Translate(Vector3.left * Time.deltaTime * speed, Space.World);
 
         if (transform.position.x < -15.0f)
         {
