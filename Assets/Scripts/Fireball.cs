@@ -13,5 +13,6 @@ public class Fireball : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent<Enemy>(out var enemy))
             enemy.Die();
+        GameObject.Destroy(gameObject);
     }
 }
